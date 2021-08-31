@@ -8,7 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 //@EnableAutoConfiguration(exclude = {ErrorMvcAutoConfiguration.class})
-//@ComponentScan(basePackages={"com.satarkf.springboot"})
+@ComponentScan(basePackages={"com.satarkf.springboot"})
 public class SpringbootJspHelloWorldExampleApplication {
 
 	public static void main(String[] args) {
